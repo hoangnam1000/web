@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Mẫu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào Mừng Đến Với Trang Web Mẫu</h1>
+    </header>
+    <main>
+        <h2>Giới Thiệu</h2>
+        <p>Đây là một trang web HTML mẫu để sử dụng trên GitHub.</p>
+
+        <h3>Hình Ảnh</h3>
+        <img src="https://via.placeholder.com/800x400" alt="Hình Ảnh Mẫu" style="max-width: 100%; height: auto;">
+
+        <h3>Liên Kết</h3>
+        <p>Đọc thêm về HTML tại <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.</p>
+
+        <h3>JavaScript</h3>
+        <button id="alertButton">Nhấn Tôi</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trang Web Mẫu. Tất cả quyền được bảo lưu.</p>
+    </footer>
+    <script>
+        document.getElementById('alertButton').addEventListener('click', function() {
+            alert('Nút đã được nhấn!');
+        });
+    </script>
+</body>
+</html>
